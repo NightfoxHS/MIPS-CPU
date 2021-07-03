@@ -1,0 +1,250 @@
+m255
+K3
+13
+cModel Technology
+dD:\Softwares\ModelsimSE\examples
+T_opt
+VkSSQk=;HkS=X<H3F;7b;A0
+04 2 4 work dm fast 0
+=1-c46516c14b1c-604893ca-ba-1bf8
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1a;51
+valu
+V7^zIAeRbYZ_nFaV02TD4O0
+r1
+31
+I^7cNRdXT>gl5a25`]URiM2
+Z0 dE:\Projects\CPUDesign
+w1615368842
+8E:/Projects/CPUDesign/alu.v
+FE:/Projects/CPUDesign/alu.v
+L0 4
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 g=7@9aTO2<A5VYadd:6K52
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/alu.v|
+!s108 1615368915.555000
+!s107 ctrl_encode_def.v|E:/Projects/CPUDesign/alu.v|
+vALUSrc_mux
+V_O5ZX`I]FjgH5;K>icn0P1
+r1
+31
+I7_H;GN78Z4NIQoWjDOTXM2
+Z3 dE:\Projects\CPUDesign
+Z4 w1615368910
+Z5 8E:/Projects/CPUDesign/MUX.v
+Z6 FE:/Projects/CPUDesign/MUX.v
+L0 20
+R1
+Z7 !s108 1615368916.283000
+Z8 !s107 E:/Projects/CPUDesign/MUX.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/MUX.v|
+R2
+n@a@l@u@src_mux
+!i10b 1
+!s85 0
+!s100 LbE]BWLFAk<di>8dJ:W_i3
+vctrl
+VZ34C^>L2ig`WCN41Y=Xd=1
+r1
+31
+I=oimFRTfJ3]CHUk^@1hC31
+R3
+w1615350306
+8E:/Projects/CPUDesign/ctrl.v
+FE:/Projects/CPUDesign/ctrl.v
+L0 4
+R1
+R2
+!i10b 1
+!s85 0
+!s100 ReFol;_EcCX@P_1fa42SI2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/ctrl.v|
+!s108 1615368915.642000
+!s107 instruction_def.v|ctrl_encode_def.v|E:/Projects/CPUDesign/ctrl.v|
+vDatatoReg_mux
+V042N3hZ40V9kThYFWRiPb3
+r1
+31
+IlWl:Y2OkBXWeXL02O;OU>2
+R3
+R4
+R5
+R6
+L0 45
+R1
+R7
+R8
+R9
+R2
+n@datato@reg_mux
+!i10b 1
+!s85 0
+!s100 R;Z>DPgl8;d^3GJ;BeZKU1
+vdm
+V355ze>nZ_LZM_di<`>17m1
+r1
+31
+IO7OQYd:d5XILcV>^@D=UI3
+R3
+w1610442914
+8E:/Projects/CPUDesign/dm.v
+FE:/Projects/CPUDesign/dm.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 Jh?N0fYdQZXS]9bkc207U1
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/dm.v|
+!s108 1615368915.783000
+!s107 E:/Projects/CPUDesign/dm.v|
+vextend
+VaDh33GK5T@[>9X?J[Ubg_2
+r1
+31
+IEgC[@AC2nNlC86DS:k1AM3
+R3
+w1610288408
+8E:/Projects/CPUDesign/extend.v
+FE:/Projects/CPUDesign/extend.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 jDN1Q6LHeLk]9hPNkCFz@0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/extend.v|
+!s108 1615368915.877000
+!s107 E:/Projects/CPUDesign/extend.v|
+vgpr
+VH?Z17X]1kGCm0HEhSB>ob0
+r1
+31
+IOd]hVUPcm4d::jaE?RG3E0
+R3
+w1610349212
+8E:/Projects/CPUDesign/gpr.v
+FE:/Projects/CPUDesign/gpr.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 OIQ27kK_=W0S4?J3l^NlE2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/gpr.v|
+!s108 1615368915.970000
+!s107 E:/Projects/CPUDesign/gpr.v|
+vim
+VSSbo1FD805E`Wd]dmn::S2
+r1
+31
+IKTQbFmF9EI]P84HUh>Qf=0
+R3
+w1610441130
+8E:/Projects/CPUDesign/im.v
+FE:/Projects/CPUDesign/im.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 aYMjiUbZ17=[SHJMdXR`g0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/im.v|
+!s108 1615368916.049000
+!s107 E:/Projects/CPUDesign/im.v|
+vmips
+VXXMLPNhMZgRT<hIE6`9Zl2
+r1
+31
+IO;Rahm10nPi6ERWR^g>J90
+R3
+w1615350609
+8E:/Projects/CPUDesign/mips.v
+FE:/Projects/CPUDesign/mips.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 goJL`hV9IMBUG9WDk[;Mc0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/mips.v|
+!s108 1615368916.205000
+!s107 E:/Projects/CPUDesign/mips.v|
+vnpc
+VQJOb4Ya;6hi;EW:_;E=^[0
+r1
+31
+Ibf[2]cSKGGDnIj>KBbAB:2
+R3
+w1615302692
+8E:/Projects/CPUDesign/npc.v
+FE:/Projects/CPUDesign/npc.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 <gih[0EbkZj7Po2AV;Ank1
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/npc.v|
+!s108 1615368916.484000
+!s107 E:/Projects/CPUDesign/npc.v|
+vpc
+VbLo4nz32z915Nm=5?:]9R0
+r1
+31
+I1@>RAEJfbdTjn2lKA<a?;1
+R3
+w1610438562
+8E:/Projects/CPUDesign/pc.v
+FE:/Projects/CPUDesign/pc.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 miR]_[Da]<KBX=[CZL2J^0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/pc.v|
+!s108 1615368916.575000
+!s107 E:/Projects/CPUDesign/pc.v|
+vRegDst_mux
+VZQOMb@ZG^a2menS2[YdFP2
+r1
+31
+I_jG@_e^IYl[fQM1<<6MRL0
+R3
+R4
+R5
+R6
+L0 2
+R1
+R7
+R8
+R9
+R2
+n@reg@dst_mux
+!i10b 1
+!s85 0
+!s100 S62>_BUDabjKCk3HVA<7W0
+vShamtSrc_mux
+V1FB03Ha2JdGRb`KG1Gm=i2
+r1
+31
+IVLC?P8`7k2jMT?lOg]jcJ1
+R3
+R4
+R5
+R6
+L0 33
+R1
+R7
+R8
+R9
+R2
+n@shamt@src_mux
+!i10b 1
+!s85 0
+!s100 Vl1oNLE?>i;>Pd6oRNo`=3

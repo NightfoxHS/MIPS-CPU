@@ -1,0 +1,41 @@
+library verilog;
+use verilog.vl_types.all;
+entity ID_EX is
+    port(
+        clk             : in     vl_logic;
+        rst             : in     vl_logic;
+        IRWr            : in     vl_logic;
+        Stall1          : in     vl_logic;
+        Stall2          : in     vl_logic;
+        PC_in           : in     vl_logic_vector(31 downto 0);
+        im_dout         : in     vl_logic_vector(31 downto 0);
+        grf_out_A_in    : in     vl_logic_vector(31 downto 0);
+        grf_out_B_in    : in     vl_logic_vector(31 downto 0);
+        reg_write_no_in : in     vl_logic_vector(4 downto 0);
+        RegDst_in       : in     vl_logic_vector(1 downto 0);
+        ALUOp_in        : in     vl_logic_vector(4 downto 0);
+        ALUSrc_in       : in     vl_logic;
+        Branch_in       : in     vl_logic;
+        MemRead_in      : in     vl_logic;
+        MemWrite_in     : in     vl_logic;
+        RegWrite_in     : in     vl_logic;
+        DatatoReg_in    : in     vl_logic_vector(1 downto 0);
+        ext_in          : in     vl_logic_vector(31 downto 0);
+        ShamtSrc_in     : in     vl_logic;
+        PC              : out    vl_logic_vector(31 downto 0);
+        instr           : out    vl_logic_vector(31 downto 0);
+        grf_out_A       : out    vl_logic_vector(31 downto 0);
+        grf_out_B       : out    vl_logic_vector(31 downto 0);
+        reg_write_no    : out    vl_logic_vector(4 downto 0);
+        RegDst          : out    vl_logic_vector(1 downto 0);
+        ALUOp           : out    vl_logic_vector(4 downto 0);
+        ALUSrc          : out    vl_logic;
+        Branch          : out    vl_logic;
+        MemRead         : out    vl_logic;
+        MemWrite        : out    vl_logic;
+        RegWrite        : out    vl_logic;
+        DatatoReg       : out    vl_logic_vector(1 downto 0);
+        ext             : out    vl_logic_vector(31 downto 0);
+        ShamtSrc        : out    vl_logic
+    );
+end ID_EX;

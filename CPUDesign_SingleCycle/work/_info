@@ -1,0 +1,267 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Softwares\ModelsimSE\examples
+T_opt
+VkSSQk=;HkS=X<H3F;7b;A0
+04 2 4 work dm fast 0
+=1-c46516c14b1c-604893ca-ba-1bf8
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.1a;51
+Z3 dD:\Softwares\ModelsimSE\examples
+T_opt1
+V:Y`PzA8?CmgaGDY:4oFZ@2
+04 3 4 work gpr fast 0
+=1-c46516c14b1c-6048bc8d-24e-40a8
+R1
+n@_opt1
+R2
+R3
+T_opt2
+Vj?1kGS?mCCQDY`9:4=fd93
+04 3 4 work npc fast 0
+=1-c46516c14b1c-6048bd93-12f-3a6c
+R1
+n@_opt2
+R2
+R3
+valu
+V7^zIAeRbYZ_nFaV02TD4O0
+r1
+31
+I@3i7mZEKkJ1z4eMV>;9aR2
+Z4 dE:\Projects\CPUDesign
+w1615432592
+8E:/Projects/CPUDesign/alu.v
+FE:/Projects/CPUDesign/alu.v
+L0 4
+Z5 OE;L;10.1a;51
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 W_Cb``3W3<Njck>f::O^00
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/alu.v|
+!s108 1615432736.435000
+!s107 ctrl_encode_def.v|E:/Projects/CPUDesign/alu.v|
+!i10b 1
+!s85 0
+vALUSrc_mux
+V_O5ZX`I]FjgH5;K>icn0P1
+r1
+31
+I7_H;GN78Z4NIQoWjDOTXM2
+R4
+Z7 w1615379716
+Z8 8E:/Projects/CPUDesign/MUX.v
+Z9 FE:/Projects/CPUDesign/MUX.v
+L0 20
+R5
+Z10 !s108 1615379770.844000
+Z11 !s107 E:/Projects/CPUDesign/MUX.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/MUX.v|
+R6
+n@a@l@u@src_mux
+!s100 LbE]BWLFAk<di>8dJ:W_i3
+!i10b 1
+!s85 0
+vctrl
+VZ34C^>L2ig`WCN41Y=Xd=1
+r1
+31
+I:eEkYRVPMgB^oBlLHXG7a2
+R4
+w1615373559
+8E:/Projects/CPUDesign/ctrl.v
+FE:/Projects/CPUDesign/ctrl.v
+L0 4
+R5
+R6
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/ctrl.v|
+!s100 fCZE=gPkjAdQ^>I701Vba3
+!s108 1615373770.819000
+!s107 instruction_def.v|ctrl_encode_def.v|E:/Projects/CPUDesign/ctrl.v|
+!i10b 1
+!s85 0
+vDatatoReg_mux
+V042N3hZ40V9kThYFWRiPb3
+r1
+31
+I]C^VIS26jbZX^VdeiCKGO2
+R4
+R7
+R8
+R9
+L0 45
+R5
+R10
+R11
+R12
+R6
+n@datato@reg_mux
+!s100 RMMi30EIKQS[>NZ896X<<0
+!i10b 1
+!s85 0
+vdm
+!i10b 1
+V355ze>nZ_LZM_di<`>17m1
+r1
+!s85 0
+31
+IYC8aXeU3hNC=W_g6ad?0U1
+R4
+w1615439146
+8E:\Projects\CPUDesign\dm.v
+FE:\Projects\CPUDesign\dm.v
+L0 1
+R5
+!s90 -reportprogress|300|-work|work|-vopt|E:\Projects\CPUDesign\dm.v|
+R6
+!s100 7LY:9J:QTGiKYg9TQY3k=3
+!s108 1615439150.206000
+!s107 E:\Projects\CPUDesign\dm.v|
+vextend
+VaDh33GK5T@[>9X?J[Ubg_2
+r1
+31
+IEgC[@AC2nNlC86DS:k1AM3
+R4
+w1610288408
+8E:/Projects/CPUDesign/extend.v
+FE:/Projects/CPUDesign/extend.v
+L0 2
+R5
+R6
+!s100 jDN1Q6LHeLk]9hPNkCFz@0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/extend.v|
+!s108 1615372689.403000
+!s107 E:/Projects/CPUDesign/extend.v|
+!i10b 1
+!s85 0
+vgpr
+VH?Z17X]1kGCm0HEhSB>ob0
+r1
+31
+Ijh9NL4cI0DQh2689NWOmc2
+R4
+w1615379674
+8E:/Projects/CPUDesign/gpr.v
+FE:/Projects/CPUDesign/gpr.v
+L0 2
+R5
+R6
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/gpr.v|
+!s100 MCaMj:Yf9VZEWEXzAXefT1
+!s108 1615379770.735000
+!s107 E:/Projects/CPUDesign/gpr.v|
+!i10b 1
+!s85 0
+vim
+VSSbo1FD805E`Wd]dmn::S2
+r1
+31
+IKTQbFmF9EI]P84HUh>Qf=0
+R4
+w1610441130
+8E:/Projects/CPUDesign/im.v
+FE:/Projects/CPUDesign/im.v
+L0 2
+R5
+R6
+!s100 aYMjiUbZ17=[SHJMdXR`g0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/im.v|
+!s108 1615372689.585000
+!s107 E:/Projects/CPUDesign/im.v|
+!i10b 1
+!s85 0
+vmips
+VXXMLPNhMZgRT<hIE6`9Zl2
+r1
+31
+If[o=j;6^h8BG`D?UMNR;L3
+R4
+w1615430862
+8E:\Projects\CPUDesign\mips.v
+FE:\Projects\CPUDesign\mips.v
+L0 2
+R5
+R6
+!s100 4O_Xa0J]=?zSUf_iM7M8B0
+!s108 1615430870.376000
+!s107 E:\Projects\CPUDesign\mips.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:\Projects\CPUDesign\mips.v|
+!i10b 1
+!s85 0
+vnpc
+VQJOb4Ya;6hi;EW:_;E=^[0
+r1
+31
+I1GLW11nG<gW7;GDzLQea53
+R4
+w1615431314
+8E:/Projects/CPUDesign/npc.v
+FE:/Projects/CPUDesign/npc.v
+L0 2
+R5
+R6
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/npc.v|
+!s100 `EHR`g7hag1ZYmk1G`II>0
+!s108 1615431325.956000
+!s107 E:/Projects/CPUDesign/npc.v|
+!i10b 1
+!s85 0
+vpc
+VbLo4nz32z915Nm=5?:]9R0
+r1
+31
+I1@>RAEJfbdTjn2lKA<a?;1
+R4
+w1610438562
+8E:/Projects/CPUDesign/pc.v
+FE:/Projects/CPUDesign/pc.v
+L0 1
+R5
+R6
+!s100 miR]_[Da]<KBX=[CZL2J^0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Projects/CPUDesign/pc.v|
+!s108 1615372690.101000
+!s107 E:/Projects/CPUDesign/pc.v|
+!i10b 1
+!s85 0
+vRegDst_mux
+VZQOMb@ZG^a2menS2[YdFP2
+r1
+31
+I_jG@_e^IYl[fQM1<<6MRL0
+R4
+R7
+R8
+R9
+L0 2
+R5
+R10
+R11
+R12
+R6
+n@reg@dst_mux
+!s100 S62>_BUDabjKCk3HVA<7W0
+!i10b 1
+!s85 0
+vShamtSrc_mux
+V1FB03Ha2JdGRb`KG1Gm=i2
+r1
+31
+IZ<[lgYXe>j2_QK<j@]5MV2
+R4
+R7
+R8
+R9
+L0 33
+R5
+R10
+R11
+R12
+R6
+n@shamt@src_mux
+!s100 zPz:;5fZB[EfjY;Po_djA3
+!i10b 1
+!s85 0

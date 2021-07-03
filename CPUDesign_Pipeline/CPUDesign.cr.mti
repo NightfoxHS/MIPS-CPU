@@ -1,0 +1,144 @@
+E:/Projects/CPUDesign/forward.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/forward.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Forward_EX
+-- Compiling module Forward_ID
+
+Top level modules:
+	Forward_EX
+	Forward_ID
+
+} {} {}} E:/Projects/CPUDesign/gpr.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} E:/Projects/CPUDesign/hazard.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/hazard.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Hazard_Data
+-- Compiling module Hazard_Ctrl_1
+-- Compiling module Hazard_Ctrl_2
+
+Top level modules:
+	Hazard_Data
+	Hazard_Ctrl_1
+	Hazard_Ctrl_2
+
+} {} {}} E:/Projects/CPUDesign/id_comp.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/id_comp.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ID_comp
+
+Top level modules:
+	ID_comp
+
+} {} {}} E:/Projects/CPUDesign/ctrl.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} E:/Projects/CPUDesign/im.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} E:/Projects/CPUDesign/MEM_WB.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/MEM_WB.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} E:/Projects/CPUDesign/ctrl_encode_def.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/ctrl_encode_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} E:/Projects/CPUDesign/extend.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/extend.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} E:/Projects/CPUDesign/instruction_def.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/instruction_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} E:/Projects/CPUDesign/npc.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} E:/Projects/CPUDesign/mips.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} E:/Projects/CPUDesign/ID_EX.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/ID_EX.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} E:/Projects/CPUDesign/dm.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} E:/Projects/CPUDesign/alu.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/Projects/CPUDesign/MUX.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/MUX.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RegDst_mux
+-- Compiling module ALUSrc_mux
+-- Compiling module ShamtSrc_mux
+-- Compiling module DatatoReg_mux
+-- Compiling module ForwardA_mux
+-- Compiling module ForwardB_mux
+-- Compiling module Mux_Gpr
+
+Top level modules:
+	RegDst_mux
+	ALUSrc_mux
+	ShamtSrc_mux
+	DatatoReg_mux
+	ForwardA_mux
+	ForwardB_mux
+	Mux_Gpr
+
+} {} {}} E:/Projects/CPUDesign/IF_ID.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/IF_ID.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} E:/Projects/CPUDesign/pc.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} E:/Projects/CPUDesign/EX_MEM.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/EX_MEM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}}

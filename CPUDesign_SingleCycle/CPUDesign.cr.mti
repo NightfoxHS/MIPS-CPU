@@ -1,0 +1,83 @@
+E:/Projects/CPUDesign/gpr.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} E:/Projects/CPUDesign/ctrl.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} E:/Projects/CPUDesign/im.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} E:/Projects/CPUDesign/ctrl_encode_def.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/ctrl_encode_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} E:/Projects/CPUDesign/extend.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/extend.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} E:/Projects/CPUDesign/instruction_def.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/instruction_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} E:/Projects/CPUDesign/dm.v {1 {vlog -work work -vopt {E:\Projects\CPUDesign\dm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} E:/Projects/CPUDesign/npc.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} E:/Projects/CPUDesign/mips.v {1 {vlog -work work -vopt {E:\Projects\CPUDesign\mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} E:/Projects/CPUDesign/alu.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/Projects/CPUDesign/MUX.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/MUX.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RegDst_mux
+-- Compiling module ALUSrc_mux
+-- Compiling module ShamtSrc_mux
+-- Compiling module DatatoReg_mux
+
+Top level modules:
+	RegDst_mux
+	ALUSrc_mux
+	ShamtSrc_mux
+	DatatoReg_mux
+
+} {} {}} E:/Projects/CPUDesign/pc.v {1 {vlog -work work -vopt E:/Projects/CPUDesign/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}}
